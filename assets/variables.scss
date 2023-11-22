@@ -1,0 +1,68 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+$body-font-family: "Arnika";
+$btn-letter-spacing: normal;
+$material-dark: (
+    "app-bar": #1F2940,
+    "background": #161A26,
+    "navigation-drawer": #1F2940,
+    "data-table": #192734,
+);
+$list-item-action-icon-margin: 12px;
+$toolbar-content-padding-y: 0px;
+$toolbar-content-padding-x: 0px;
+$expansion-panel-content-padding: 0px;
+$card-title-word-break: normal;
+$parallax-padding: 0;
+$headings:(
+    'h1': (
+      'letter-spacing': normal
+    ),
+    'h2': (
+      'letter-spacing': normal
+    ),
+    'h3': (
+      'letter-spacing': normal
+    ),
+    'h4': (
+      'letter-spacing': normal
+    ),
+    'h5': (
+      'letter-spacing': normal
+    ),
+    'h6': (
+      'letter-spacing': normal
+    ),
+    'subtitle-1': (
+      'letter-spacing': normal
+    ),
+    'subtitle-2': (
+      'letter-spacing': normal
+    ),
+    'body-1': (
+      'letter-spacing': normal,
+      'size': 1.125rem
+    ),
+    'body-2': (
+      'letter-spacing': normal
+    ),
+    'button': (
+        'letter-spacing': normal
+    ),
+    'caption': (
+      'letter-spacing': normal
+    ),
+    'overline': (
+      'letter-spacing': normal
+    )
+);
+@for $i from 1 through 10 {
+    .delay-#{$i * 100} {
+        transition-delay: $i * 100ms;
+    }
+}
+$container-max-widths: (
+    'xl': 1280px
+);
