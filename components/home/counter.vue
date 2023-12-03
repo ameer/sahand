@@ -1,7 +1,7 @@
 <template>
   <section id="counter-section" class="primary darken-2 py-16">
     <v-container>
-      <v-row align="center py-6">
+      <v-row class="align-center py-6">
         <v-col v-for="(item, index) in items" :key="'counter-item-'+index" cols="12" sm="4">
           <div class="white--text text-center">
             <p class="text-h3 font-weight-bold high--em mb-2">

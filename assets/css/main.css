@@ -9,7 +9,8 @@
   font-family: Arnika;
   font-weight: 400;
   font-display: swap;
-  src: url("~assets/fonts/arnika_fanum.woff") format("woff"), url("~assets/fonts/arnika_fanum.woff2") format("woff2");
+  src: url("~assets/fonts/arnika_fanum.woff") format("woff"),
+    url("~assets/fonts/arnika_fanum.woff2") format("woff2");
 }
 @font-face {
   font-family: Arnika;
@@ -30,7 +31,8 @@ body {
   cursor: pointer;
 }
 .grayscale {
-  filter: invert(72%) sepia(0%) saturate(0%) hue-rotate(227deg) brightness(86%) contrast(90%);
+  filter: invert(72%) sepia(0%) saturate(0%) hue-rotate(227deg) brightness(86%)
+    contrast(90%);
 }
 .z-2 {
   z-index: 2;
@@ -40,7 +42,11 @@ body {
 }
 .blue-gradient {
   background: rgb(21, 82, 113);
-  background: linear-gradient(123deg, rgba(21, 82, 113, 1) 0%, rgba(91, 134, 156, 1) 100%);
+  background: linear-gradient(
+    123deg,
+    rgba(21, 82, 113, 1) 0%,
+    rgba(91, 134, 156, 1) 100%
+  );
 }
 .absolute {
   position: absolute !important;
@@ -179,11 +185,11 @@ body {
   background: rgb(85 140 179 / 90%);
   bottom: 0;
   color: #fff;
-  height:30%;
-  padding: 1rem .825rem;
+  height: 30%;
+  padding: 1rem 0.825rem;
   position: absolute;
   transform: translateY(100%);
-  transition: transform .5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   width: 100%;
 }
 /* Typography */
@@ -252,10 +258,10 @@ body {
   line-height: 1 !important;
 }
 .one-and-half-line-height {
-  line-height: 1.5em !important; 
+  line-height: 1.5em !important;
 }
 .doubled-line-height {
-  line-height: 2em !important; 
+  line-height: 2em !important;
 }
 
 .hero-img {
@@ -267,7 +273,7 @@ body {
 }
 /* Responsive */
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width: 600px) {
   .hero-img {
     width: 100%;
     height: 100%;
@@ -283,4 +289,11 @@ body {
     margin-left: auto !important;
     margin-right: auto !important;
   }
+}
+a.nuxt-link-exact-active.nuxt-link-active.v-card.v-card--link {
+  background: #3057a8;
+  color: #fff;
+}
+a.nuxt-link-exact-active.nuxt-link-active.v-card.v-card--link .v-icon {
+  color: #fff !important;
 }
