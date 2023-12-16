@@ -22,7 +22,6 @@
 html,
 body {
   touch-action: manipulation;
-  overflow-x: hidden;
 }
 .parallax-bg {
   background-color: #3f769f;
@@ -296,4 +295,7 @@ a.nuxt-link-exact-active.nuxt-link-active.v-card.v-card--link {
 }
 a.nuxt-link-exact-active.nuxt-link-active.v-card.v-card--link .v-icon {
   color: #fff !important;
+}
+.sticky {
+  position: sticky;
 }
