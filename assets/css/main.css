@@ -299,3 +299,20 @@ a.nuxt-link-exact-active.nuxt-link-active.v-card.v-card--link .v-icon {
 .sticky {
   position: sticky;
 }
+.number-box {
+  display: inline-block;
+  border: 1px solid #325e7f;
+  background-color: #fff;
+  width: 30px;
+  color: #325e7f;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 18px;
+  margin-left: 16px;
+  transition: all 0.3s ease-in-out;
+}
+.v-expansion-panel--active.v-item--active .number-box {
+  background: #325e7f;
+  color: #fff;
+}

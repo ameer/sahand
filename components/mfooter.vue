@@ -13,7 +13,7 @@
     <v-container fluid class="py-12" style="background: #166178">
       <v-row style="max-width: 425px" class="mx-auto">
         <v-col cols="6" class="d-flex">
-          <v-img src="/img/sahand-avatar.jpg" />
+          <v-img src="/img/sahand-avatar.jpg" eager />
         </v-col>
         <v-divider vertical dark />
         <v-col cols="6" class="white--text">
@@ -57,6 +57,7 @@
                 width="112px"
                 class="px-4 d-inline-block"
                 height="112px"
+                eager
               />
             </v-col>
             <v-col cols="6" class="text-center">
@@ -66,6 +67,7 @@
                 width="112px"
                 class="px-4 d-inline-block"
                 height="112px"
+                eager
               />
             </v-col>
             <v-col cols="6" class="text-center">
@@ -75,6 +77,7 @@
                 width="112px"
                 class="px-4 d-inline-block"
                 height="112px"
+                eager
               />
             </v-col>
             <v-col cols="6" class="text-center">
@@ -84,6 +87,7 @@
                 width="112px"
                 class="px-4 d-inline-block"
                 height="112px"
+                eager
               />
             </v-col>
           </v-row>

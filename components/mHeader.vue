@@ -65,22 +65,22 @@ export default {
         { text: 'صفحه اصلی', href: '/' },
         {
           text: 'سبدگردانی',
-          href: '/market-making',
+          href: '#',
           hasSubmenu: true,
           subItems: [
-            { text: 'معرفی سبدگردانی', href: '/market-making' },
-            { text: 'فرآیند سرمایه‌گذاری در سبد', href: '#' },
-            { text: 'رویکرد تحلیل اوراق بهادار و منابع اطلاعاتی', href: '#' },
-            { text: 'کارمزد سبدگردانی', href: '#' },
-            { text: 'قرارداد یا فرم سبدگردانی', href: '#' },
-            { text: 'شاخص‌های عملکردی', href: '#' },
-            { text: 'سنجش ریسک‌پذیری', href: '#' },
-            { text: 'پرسش‌های متداول سبدگردانی', href: '#' }
+            { text: 'معرفی سبدگردانی', href: '/market-making/introduction' },
+            { text: 'فرآیند سرمایه‌گذاری در سبد', href: '/market-making/process-of-investment-in-market-making' },
+            { text: 'رویکرد تحلیل اوراق بهادار و منابع اطلاعاتی', href: '/market-making/analytical-studies-of-securities-and-information-sources' },
+            { text: 'کارمزد سبدگردانی', href: '/portfolio-management-fee' },
+            { text: 'قرارداد یا فرم سبدگردانی', href: '/#?' },
+            { text: 'شاخص‌های عملکردی', href: '/#?' },
+            { text: 'سنجش ریسک‌پذیری', href: '/#?' },
+            { text: 'پرسش‌های متداول سبدگردانی', href: '/market-making/faq' }
           ]
         },
-        { text: 'صندوق‌ها', href: '#' },
-        { text: 'درباره ما', href: '#' },
-        { text: 'ارتباط با ما', href: '#' }
+        { text: 'صندوق‌ها', href: '/boxes' },
+        { text: 'درباره ما', href: '/about-us' },
+        { text: 'ارتباط با ما', href: '/contact-us' }
       ]
     }
   }

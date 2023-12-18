@@ -69,7 +69,7 @@ export default {
       dark: false,
       themes: {
         light: {
-          primary: '#325E7F',
+          primary: '#4586c6',
           gold: '#F0CA79',
           secondary: '#808080',
           mWhite: '#F3F3F3'
