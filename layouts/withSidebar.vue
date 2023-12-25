@@ -40,7 +40,7 @@ export default {
         { text: 'کارمزد سبدگردانی', href: '/portfolio-management-fee' },
         { text: 'قرارداد یا فرم سبدگردانی', href: '#' },
         { text: 'شاخص‌های عملکردی', href: '#' },
-        { text: 'سنجش ریسک‌پذیری', href: '#' },
+        { text: 'سنجش ریسک‌پذیری', href: '/risk-test' },
         { text: 'پرسش‌های متداول سبدگردانی', href: '/faq' }
       ]
     }

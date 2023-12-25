@@ -316,3 +316,15 @@ a.nuxt-link-exact-active.nuxt-link-active.v-card.v-card--link .v-icon {
   background: #325e7f;
   color: #fff;
 }
+.answer-radio {
+  border: 2px solid #eee;
+  border-radius: 1rem;
+  transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.answer-radio.v-item--active {
+  border-color: #4586c6;
+  background-color: #4586c6 !important;
+}
+.answer-radio.v-item--active label div {
+  color: #fff !important;
+}
