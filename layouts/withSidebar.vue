@@ -38,8 +38,8 @@ export default {
         { text: 'فرآیند سرمایه‌گذاری در سبد', href: '/process-of-investment-in-market-making' },
         { text: 'رویکرد تحلیل اوراق بهادار و منابع اطلاعاتی', href: '/analytical-studies-of-securities-and-information-sources' },
         { text: 'کارمزد سبدگردانی', href: '/portfolio-management-fee' },
-        { text: 'قرارداد یا فرم سبدگردانی', href: '#' },
-        { text: 'شاخص‌های عملکردی', href: '#' },
+        { text: 'قرارداد یا فرم سبدگردانی', href: '/no-content' },
+        { text: 'شاخص‌های عملکردی', href: '/no-content' },
         { text: 'سنجش ریسک‌پذیری', href: '/risk-test' },
         { text: 'پرسش‌های متداول سبدگردانی', href: '/faq' }
       ]
