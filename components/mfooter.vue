@@ -97,7 +97,7 @@
       <v-row class="mx-auto text-center" no-gutters>
         <v-col cols="12" md="6" offset-md="3">
           <p class="mb-4 white--text high-em">
-            تهران - خیابان بخارست - کوچه سیزدهم - پلاک ۱۸
+            تهران، میدان آرژانتین، خیابان خالد اسلامبولی، کوچه سیزدهم، پلاک ۱۸
           </p>
         </v-col>
         <v-col cols="12" md="6" offset-md="3">

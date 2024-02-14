@@ -31,6 +31,7 @@
               v-for="(subItem, index) in item.subItems"
               :key="index"
               :to="subItem.href"
+              :disabled="subItem.isDisabled"
             >
               <v-list-item-title class="text-body-2">
                 {{ subItem.text }}
@@ -46,6 +47,7 @@
           class="main-nav__btn mx-4"
           height="44"
           :exact="true"
+          :disabled="item.isDisabled"
         >
           <span class="text-body-2 ms-2 font-weight-medium" v-text="item.text" />
         </v-btn>
@@ -71,14 +73,14 @@ export default {
             { text: 'معرفی سبدگردانی', href: '/market-making/introduction' },
             { text: 'فرآیند سرمایه‌گذاری در سبد', href: '/market-making/process-of-investment-in-market-making' },
             { text: 'رویکرد تحلیل اوراق بهادار و منابع اطلاعاتی', href: '/market-making/analytical-studies-of-securities-and-information-sources' },
-            { text: 'کارمزد سبدگردانی', href: '/portfolio-management-fee' },
-            { text: 'قرارداد یا فرم سبدگردانی', href: '/#?' },
-            { text: 'شاخص‌های عملکردی', href: '/#?' },
-            { text: 'سنجش ریسک‌پذیری', href: '/#?' },
+            { text: 'کارمزد سبدگردانی', href: '/market-making/portfolio-management-fee' },
+            { text: 'قرارداد یا فرم سبدگردانی', href: '/#?', isDisabled: true },
+            { text: 'شاخص‌های عملکردی', href: '/#?', isDisabled: true },
+            { text: 'سنجش ریسک‌پذیری', href: '/market-making/risk-test' },
             { text: 'پرسش‌های متداول سبدگردانی', href: '/market-making/faq' }
           ]
         },
-        { text: 'صندوق‌ها', href: '/boxes' },
+        { text: 'صندوق‌ها', href: '/boxes', isDisabled: true },
         { text: 'درباره ما', href: '/about-us' },
         { text: 'ارتباط با ما', href: '/contact-us' }
       ]

@@ -328,3 +328,7 @@ a.nuxt-link-exact-active.nuxt-link-active.v-card.v-card--link .v-icon {
 .answer-radio.v-item--active label div {
   color: #fff !important;
 }
+.member-card {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: hsl(194deg 24.24% 95.84% / 70%);
+}

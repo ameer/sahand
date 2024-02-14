@@ -3,45 +3,36 @@
     <v-row align="stretch">
       <v-col cols="12" class="text-center">
         <h3 class="text-h5 font-weight-bold py-6 primary--text">
-          درباره شرکت سبدگردان سهند
+          ارتباط با شرکت سبدگردان سهند
         </h3>
         <v-divider />
       </v-col>
-      <v-col cols="12" sm="3">
-        <v-img rounded src="/img/about-us/office.webp" class="fill-height" />
+      <v-col cols="12" sm="6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.675931788431!2d51.41414206964565!3d35.733504286917054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e01002b147111%3A0x29327bac6ba563e8!2z2LTYsdqp2Kog2LPYqNiv2q_Ysdiv2KfZhiDYs9mH2YbYrw!5e0!3m2!1sen!2sus!4v1707917129867!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        />
       </v-col>
-      <v-col cols="12" sm="9" class="fill-height">
+      <v-col cols="12" sm="6" class="fill-height">
         <v-card class="fill-height">
           <v-card-text class="text-body-1" style="line-height: 2.75rem !important;">
-            سبدگردان سهند در راستای ترویج سرمایه‌گذاری غیر مستقیم در بورس تهران، سعی دارد
-            با اتکا بر دانش و تجربه‌ی سرمایه‌ی انسانی خود، خدمت مدیریت دارایی را با هدف ثروت
-            آفرینی برای مشتریان خود فراهم سازد. به همین منظور شرکت سبدگردان سهند با سرمایه
-            500میلیارد ریالی و با شماره ثبت......مورخ.....نزد اداره ثبت شرکتها و موسسات غیر
-            تجاری تهران تاسیس و با شماره ثبت ....مورخ.... نزد سازمان بورس و اوراق
-            بهادار فعالیت خود را آغاز نمود.
+            <span class="text--disabled">تلفن:</span>
+            <a href="tel:+9821123456789"><span dir="ltr" class="text--secondary font-weight-bold">021-123456789</span></a>
+          </v-card-text>
+          <v-card-text class="text-body-1" style="line-height: 2.75rem !important;">
+            <span class="text--disabled">ایمیل:</span>
+            <a href="mailto:info@sahandam.ir"><span dir="ltr" class="text--secondary font-weight-bold">info@sahandam.ir</span></a>
+          </v-card-text>
+          <v-card-text class="text-body-1" style="line-height: 2.75rem !important;">
+            <span class="text--disabled">نشانی:</span>
+            <span class="text--secondary font-weight-bold">تهران، میدان آرژانتین، خیابان خالد اسلامبولی، کوچه سیزدهم، پلاک ۱۸</span>
           </v-card-text>
         </v-card>
-      </v-col>
-      <v-col cols="12" class="text-center">
-        <h3 class="text-h5 font-weight-bold py-6 primary--text">
-          اعضای هیئت مدیره
-        </h3>
-        <v-divider />
-      </v-col>
-      <v-col v-for="(manager,i) in managers" :key="`mb-${i}`" cols="12" class="text-center">
-        <manager-card v-bind="manager" />
-      </v-col>
-      <v-col cols="12" class="my-4" />
-      <v-col cols="12" class="text-center">
-        <h3 class="text-h5 font-weight-bold pb-6 primary--text">
-          سرمایه انسانی
-        </h3>
-        <v-divider />
-      </v-col>
-    </v-row>
-    <v-row align="stretch">
-      <v-col v-for="(member,i) in members" :key="`hr-${i}`" cols="12" md="4" class="text-center">
-        <member-card v-bind="member" class="fill-height" />
       </v-col>
     </v-row>
   </v-container>

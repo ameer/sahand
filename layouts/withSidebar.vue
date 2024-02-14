@@ -6,7 +6,7 @@
         <v-row>
           <v-col cols="3">
             <div class="aside sticky d-flex flex-column" style="gap:16px;top:80px;">
-              <v-card v-for="(item, i) in items" :key="`stc-${i}`" :to="'/market-making'+item.href">
+              <v-card v-for="(item, i) in items" :key="`stc-${i}`" :to="'/market-making'+item.href" :disabled="item.isDisabled">
                 <v-card-title>
                   <v-icon color="primary">
                     mdi-information-variant-circle
@@ -38,8 +38,8 @@ export default {
         { text: 'فرآیند سرمایه‌گذاری در سبد', href: '/process-of-investment-in-market-making' },
         { text: 'رویکرد تحلیل اوراق بهادار و منابع اطلاعاتی', href: '/analytical-studies-of-securities-and-information-sources' },
         { text: 'کارمزد سبدگردانی', href: '/portfolio-management-fee' },
-        { text: 'قرارداد یا فرم سبدگردانی', href: '#' },
-        { text: 'شاخص‌های عملکردی', href: '#' },
+        { text: 'قرارداد یا فرم سبدگردانی', href: '#', isDisabled: true },
+        { text: 'شاخص‌های عملکردی', href: '#', isDisabled: true },
         { text: 'سنجش ریسک‌پذیری', href: '/risk-test' },
         { text: 'پرسش‌های متداول سبدگردانی', href: '/faq' }
       ]
