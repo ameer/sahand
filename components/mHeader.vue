@@ -73,9 +73,15 @@ export default {
             { text: 'معرفی سبدگردانی', href: '/market-making/introduction' },
             { text: 'فرآیند سرمایه‌گذاری در سبد', href: '/market-making/process-of-investment-in-market-making' },
             { text: 'رویکرد تحلیل اوراق بهادار و منابع اطلاعاتی', href: '/market-making/analytical-studies-of-securities-and-information-sources' },
+<<<<<<< HEAD
             { text: 'کارمزد سبدگردانی', href: '/market-making/portfolio-management-fee' },
             { text: 'قرارداد یا فرم سبدگردانی', href: '/#?', isDisabled: true },
             { text: 'شاخص‌های عملکردی', href: '/#?', isDisabled: true },
+=======
+            { text: 'کارمزد سبدگردانی', href: '/portfolio-management-fee' },
+            { text: 'قرارداد یا فرم سبدگردانی', href: '/market-making/no-content' },
+            { text: 'شاخص‌های عملکردی', href: '/market-making/no-content' },
+>>>>>>> d24d5622e382d8c933a60f128483438f0fc5fd7d
             { text: 'سنجش ریسک‌پذیری', href: '/market-making/risk-test' },
             { text: 'پرسش‌های متداول سبدگردانی', href: '/market-making/faq' }
           ]
